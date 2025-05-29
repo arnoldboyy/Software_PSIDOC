@@ -1,0 +1,62 @@
+object frmMensaje: TfrmMensaje
+  Left = 977
+  Height = 146
+  Top = 383
+  Width = 438
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsNone
+  Caption = 'frmMensaje'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = 14996367
+  LCLVersion = '3.2.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 146
+    Top = 0
+    Width = 439
+    BorderSpacing.InnerBorder = 4
+    BevelColor = 6179124
+    BevelInner = bvRaised
+    ClientHeight = 146
+    ClientWidth = 439
+    ParentBackground = False
+    TabOrder = 0
+    object bOk: TPanel
+      Left = 179
+      Height = 32
+      Top = 102
+      Width = 90
+      BevelColor = 6179124
+      Caption = 'Ok'
+      Color = 6179124
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -22
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentBackground = False
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 0
+      OnClick = bOkClick
+      OnMouseEnter = bOkMouseEnter
+      OnMouseLeave = bOkMouseLeave
+    end
+    object lblTexto: TLabel
+      Left = 45
+      Height = 76
+      Top = 19
+      Width = 358
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Aviso'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -18
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      WordWrap = True
+    end
+  end
+end
